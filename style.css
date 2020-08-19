@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #edf2f4;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(15, 15, 15);
+    padding: 20px 60px
+}
+header p{
+    color: #fff;
+    font-weight: 300;
+}
+.icons a{
+    font-size: 1.4rem;
+    color: #fff;
+    margin: 8px;
+}
+.fa-github, .fa-instagram{
+    transition: all 800ms;
+}
+.fa-github:hover, .fa-instagram:hover{
+    transform: scale(1.5);
+}
+.container{
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.container .app form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.container .app form input{
+    margin: 0 auto;
+    width: 80%;
+    padding: .8rem;
+    margin-top: .8rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #ef233c;
+    outline: rgba(0, 255, 128, 0.5);
+    background: #edf2f4;
+    transition: 600ms;
+}
+.container .app form input:focus{
+    border-bottom: 2px solid #06d6a0;
+}
+.container .app form .topo img{
+    max-width: 720px;
+    width: 45%;
+    display: flex;
+    margin: 0 auto;
+    margin-top:25px;
+}
+.container .app form .topo p{
+    margin-top: 25px;
+    font-size: 1.4rem;
+    opacity: 0.5;
+}
+.creditos{
+    width: 500px;
+    text-align: center;
+}
+.creditos p{
+    color: #000;
+    text-align: center;
+    padding: 40px 20px;
+    font-weight: 100;
+}
+.creditos a{
+    text-decoration: none;
+    color: #ef233c;
+}
+.creditos a:hover{
+    text-decoration: underline;
+}
